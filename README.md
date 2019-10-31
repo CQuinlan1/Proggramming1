@@ -52,7 +52,7 @@ We  can generate random values from   a multivariate normal function which  work
 ##### 3.Chisquare
 Sample values can be created with the numpy function chisquare  drawing samples from a chi-square distribution.
 
-It  creates independent random variables, each with standard normal distributions (mean 0, variance 1), which  are  *squared and summed* , the resulting distribution is chi-square  . This distribution is often used in hypothesis testing and confidence intervals.
+It  creates independent random variables, each with standard normal distributions (mean 0, variance 1), which  are  *squared and summed* , the resulting distribution is chi-square  . This distribution is often used in hypothesis testing and confidence intervals.It is a way to test if observed values fit into values expected, asuming the null hypothesis is true.
 
 
 
