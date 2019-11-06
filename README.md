@@ -6,14 +6,14 @@ This is my assignment for Programming in Data Analysis due November 11th 2019. I
 
 
 ## Numpy
-Numpy is a module for Python programming. Numpy allows you collect numericaldata and put them in arrays and do manipulations or calculations on this data. 
+Numpy is a module for Python programming. Numpy allows you collect numerical data and put them in arrays and do manipulations or calculations on this data. 
 Under Numpy .random we have 5 branches to generate random values. Simple random data, Permutations, Distribution and Random generator.
 
 
 #### Simple Random Data
 *Simple Random Data* offers 10 different functions to choose from. We are offered a selection of possibilities for creating random values. We can set the parameters and include or exclude the highest limit and the data returned can be **integers, bytes or floating values**.
-The returned random integers from low (inclusive) to high (exclusive).There is a  function  to find Random **integers** of type np.int between low and high, inclusive also.
-Example to put in:
+The returned random integers from low (inclusive) to high (exclusive).There is also  functions  to find Random **integers** of type np.int between low and high, inclusive also.
+
 
  We also find a range of functions like  Radom Sample, Random, Ranf  and Sample that return random **floats** in a half-open interval [0.0, 1.0). 
 
@@ -24,10 +24,10 @@ The  Permutations function offers 2 methods of creating random values:
 * Permutation 
 to modify the order of values.
 
-example to do
+
 
 #### Distribution Functions
-Of the many distribution functions offered by Numpy. I will review the uses of the  following :
+Of the many distribution functions offered by Numpy.Random  I will review the uses of the  following :
 * Normal
 * Multivariate Normal
 * Chisquare
@@ -69,23 +69,18 @@ This  also draws values from a normal distribution , where our loc (mean) is 0 a
 
 #### Use of seeds generating pseudorandom numbers 
 In Numpy we have 4 functions under Random Generator, where seed is one of those functions.
-To understand the effect of the function seed firstly its worth considering the function random without calling the function seed previously and realising how the function random will continuesly return  values  that are completely random,  different float values are output each time.
 
-Example:
-
-However if we introduce the seed function and then activate  the random function , random numbers are generated, however the same random numbers are generated each time with this seed.
-
-Example:
+The introduction of a unique seed before eliciting a random function allows us to elicit the same value or sequence of values each time 
 
 
 So our random output is not completely random but *pseudo random*, as with this seed we are getting a set output each time .
-So we are are using the seed as a pseudo random generator, as it by reseeding with this same value we are recreating the same sequence of values each time.
-We often see that the seed used may be  a number representing date/time (avoiding repeats) in  the pseudo random number generator (PRNG) .
+So we a are using the seed as a pseudo random generator, as it by reseeding with this same value we are recreating the same sequence of values each time.
+We often see that the seed used maybe  a number representing date/time (avoiding repeats) in  the pseudo random number generator (PRNG) .
 The uses of this can be found in cryptography and encryption algorithm, where codes and passwords cannot be guessed.
 
 
 ##### Conclusion
-The selection available of functions  for creating random values is extremely wide. I suggest that certain areas repeatly use the  most relevant to their area of speciality, and while the assignment is very worthwhile, it will be interesting to see the preferred methods by different sectors in industry.
+The selection available of functions  for creating random values is extremely wide. I suggest that certain areas repeatly use the  most relevant to their area of speciality, and while the assignment is very worthwhile, it would be very interesting to see the preferred methods used by different sectors in industry.
 
 
 ##### References:
